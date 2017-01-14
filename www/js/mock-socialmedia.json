@@ -1,0 +1,14 @@
+{"pageSize":10,
+	"total":2,
+	"currentPage":1,
+	"items":
+	[{"caption":"Follow us here To get all the latest updates!",
+		"socialMediaText":["Follow us on"],
+		"socialMediaImage":
+		[{"name":"img/fb.png",
+							"displayName":"fb-icon.png",
+						"primaryNodeTypeName":"hippogallery:imageset",
+					"mimeType":null,"length":0,"blank":false,"height":0,"width":0,
+					"localizedName":"fb-icon.png","path":"/content/gallery/myhippoproject/social-media/fb-icon.png/fb-icon.png",
+					"leaf":false},
+        {"name":"img/insta.png","displayName":"instagram_icon.png","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"instagram_icon.png","path":"/content/gallery/myhippoproject/social-media/instagram_icon.png/instagram_icon.png","leaf":false},{"name":"img/twitter.png","displayName":"twitter-icon.png","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"twitter-icon.png","path":"/content/gallery/myhippoproject/social-media/twitter-icon.png/twitter-icon.png","leaf":false}],"content":["Got any queries?\r\nWe promise to get back to you!","Got any feedback? \r\nWe’d love to hear them!"]},{"caption":"Follow us here To get all the latest updates!","socialMediaText":["Follow us on"],"socialMediaImage":[{"name":"fb-icon.png","displayName":"fb-icon.png","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"fb-icon.png","path":"/content/gallery/myhippoproject/social-media/fb-icon.png/fb-icon.png","leaf":false},{"name":"instagram_icon.png","displayName":"instagram_icon.png","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"instagram_icon.png","path":"/content/gallery/myhippoproject/social-media/instagram_icon.png/instagram_icon.png","leaf":false},{"name":"twitter-icon.png","displayName":"twitter-icon.png","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"twitter-icon.png","path":"/content/gallery/myhippoproject/social-media/twitter-icon.png/twitter-icon.png","leaf":false}],"content":["Got any queries?\r\nWe promise to get back to you!","Got any feedback? \r\nWe’d love to hear them!"]}],"totalPages":1}

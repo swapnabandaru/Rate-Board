@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+
+<div class="wrapper fade-in">
+<ion-view hide-nav-bar="true" title="Rates"   cache-view="false" id="store-visit-wrapper" hide-tabs>
+  <ion-content padding="false" style="background: url(img/img2.png) no-repeat center;background-size:cover;" >
+
+<div  style="background-color:#00B2EE; margin-bottom: 100px;" class="row">
+      <div class="col col-20">
+
+        <img style="margin-left:60px;"
+   
+   src="img/Icon.jpg" width="40" height="40" center>
+
+      </div>
+      <div class="col col-50">
+
+       <h4 style="color:white";><strong>LuLu </strong> <strong>International</strong><strong> Exchange </strong></h4>   
+      </div>
+      </div>
+
+      
+      <div ng-controller="RatesCtrl" class="row">
+      <div style="color:white"; class="col col-50 " >
+      <div id="inner"  center>  
+     
+			      <img  src="http://www.mapsofindia.com/maps/india/india-flag-a4.jpg" width="220" height="150" style="margin-left:310px">
+	   </div> 
+			
+
+      </div>
+      <div style="color:white"; class="col ">
+			      <div id="inner" >
+			      <div style="vertical-align: middle;padding-right:10px;padding-left:50px; padding-top:10px; padding-bottom:10px;
+			     ">
+			      	 <h1 style="color:black" >Indian Rupee </h1>
+			      	<h1 style="color:black" ><strong>( {{curCode13}} )</strong></h1>
+			      	</div>
+			      </div>
+      </div>
+      
+      </div>
+
+      
+      <br>
+      <br>
+
+      <div ng-controller="RatesCtrl" class="row">
+      <div  style="color:white"; class="col col-30">
+
+      
+			      <div id="inner" class="box red" center>
+			      <div style="vertical-align: middle;padding-right:10px;padding-left:20px; padding-top:40px; padding-bottom:10px;
+			     ">
+			      	 <h1 style="color:white" center > Buy </h1>
+			      	<h3 style="color:white" center><strong>{{ncBuyRate13}}</strong></h3>
+			      	</div>
+			      </div>
+      </div>
+       <div style="color:white"; class="col ">
+			      <div id="inner" class="box red" center>
+			      <div style="vertical-align: middle;padding-right:10px;padding-left:20px; padding-top:40px; padding-bottom:10px;
+			     ">
+			      	 <h1 style="color:white" center> Sell </h1>
+			      	<h3 style="color:white" center><strong>{{ncSellRate13}}</strong></h3>
+			      	</div>
+			      </div>
+      </div>
+      <div style="color:white"; class="col ">
+			      <div id="inner" class="box red" center>
+			      <div style="vertical-align: middle;padding-right:10px;padding-left:20px; padding-top:40px; padding-bottom:10px;
+			     ">
+			      	 <h1 style="color:white" center> DD/TT </h1>
+			      	<h3 style="color:white" center><strong>{{ntSellRate13}}</strong></h3>
+			      	</div>
+			      </div>
+      </div>
+      </div>
+</ion-content>
+</ion-view>
+</div>
+
+
+</body>
+</html>

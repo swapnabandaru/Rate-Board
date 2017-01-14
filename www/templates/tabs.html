@@ -1,0 +1,52 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-view hide-nav-bar="true"  cache-view="false" id="store-visit-wrapper" hide-tabs>
+<ion-tabs  class="tabs-icon-top tabs-color-active-positive {{$root.hideTabs}}" animation="slide-left-right">
+
+
+
+   <ion-tab title="Branch" icon-off="ion-android-menu" icon-on="ion-android-menu" href="#/tab/branch">
+    <ion-nav-view  hide-nav-bar="true" name="tab-branch"></ion-nav-view>
+  </ion-tab>
+<!-- Dashboard Tab -->
+
+<ion-tab title="Rates" icon-off="ion-ios-home" icon-on="ion-ios-home" href="#/tab/rates">
+    <ion-nav-view name="tab-rates"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="IRate" icon-off="ion-ios-home" icon-on="ion-ios-home" href="#/tab/irate">
+    <ion-nav-view name="tab-irate"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Home" icon-off="ion-ios-home" icon-on="ion-ios-home" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab id="emp" title="Employee Intro" icon-off="ion-person" icon-on="ion-person" href="#/tab/employeeintro">
+    <ion-nav-view name="tab-employeeintro" ></ion-nav-view>
+  </ion-tab>
+
+ <ion-tab title="Mobile App Ad" icon-off="ion-iphone" icon-on="ion-iphone" href="#/tab/mobileappad">
+    <ion-nav-view name="tab-mobileappad" ></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="News" icon-off="ion-android-folder-open" icon-on="ion-android-folder-open" href="#/tab/news">
+    <ion-nav-view name="tab-news" ></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Video" icon-off="ion-android-film" icon-on="ion-android-film" href="#/tab/video">
+    <ion-nav-view name="tab-video" ></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Social Media" icon-off="ion-android-apps" icon-on="ion-android-apps" href="#/tab/socialmedia">
+    <ion-nav-view name="tab-socialmedia" ></ion-nav-view>
+  </ion-tab>
+
+   
+       
+
+</ion-tabs>
+</ion-view>

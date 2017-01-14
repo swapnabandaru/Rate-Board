@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    
+    <script src="cordova.js"></script>
+    <script src="js/NativePageTransitionsKendoAdapter.js"></script>
+
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script type="text/javascript">
+
+        setInterval("window.location='http://172.30.20.164:8100/#/tab/rates'",5000);
+        setInterval("window.location='http://172.30.20.164:8100/#/tab/irate'",15000);
+       	setInterval("window.location='http://172.30.20.164:8100/#/tab/employeeintro'",20000);
+				//console.log(i);
+				setInterval("window.location='http://172.30.20.164:8100/#/tab/mobileappad'",25000);
+				//console.log(i);
+				setInterval("window.location='http://172.30.20.164:8100/#/tab/news'",30000);
+				//console.log(i);
+				setInterval("window.location='http://172.30.20.164:8100/#/tab/video'",35000);
+				//console.log(i);
+				setInterval("window.location='http://172.30.20.164:8100/#/tab/socialmedia'",40000);
+				setInterval("window.location='http://172.30.20.164:8100/#/tab/dash'",45000);
+		
+	</script>
+	
+    <!--<script src="js/news-service.js"></script>-->
+  </head>
+  <body ng-app="starter">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

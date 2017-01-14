@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+
+ <div class="wrapper fade-in">
+<ion-view hide-nav-bar="true"  title="Employee" id="page2"  cache-view="false" id="store-visit-wrapper" hide-tabs>
+  <ion-content class = "pt-page-scaleDown" padding="false" style="background: url(img/newbanner2.jpg) no-repeat center;background-size:cover;" >
+    <div style="background-color:#00B2EE" class="row">
+      <div class="col col-20">
+
+        <img style="margin-left:60px;""
+   
+   src="img/Icon.jpg" width="40" height="40" center>
+
+      </div>
+      <div class="col col-50">
+
+       <h4 style="color:white";><strong>LuLu </strong> <strong>International</strong><strong> Exchange </h4></strong>
+   
+   
+      </div>
+
+
+
+      <div class="col col-30"  >
+      
+
+            <p style="color:white" ng-controller="datCtrl">{{ today | date : "dd MMM y,EEEE" }}
+                <br>{{today | date : "hh:mm a"}} </p>
+      </div>
+
+
+      </div>
+
+       <div class="spacer" style="height: 40px;"></div>
+    
+    <h3 ng-controller="EmpCtrl" id="page3-heading7" style="color:#FFFFFF;font-weight:600;font-style:italic;text-align:center;">{{caption}}</h3>
+
+     <div class="spacer" style="height: 40px;"></div>
+    <div style="background-color:#FFFFFF;opacity: 0.9;" class="row">
+      <div  class="col col-55">
+
+        
+
+        <p ng-controller="EmpCtrl" style="color:black"> {{greetingMessage}}</p>
+        <p  id= "line1" style="color:black;opacity:1.0">{{employeeDetails1}}</p>
+        <p  style="color:black">{{employeeDetails2}}</p>
+        <p  style="color:black">{{employeeDetails3}} </p>
+        <p style="color:black">{{closingStatement}} </p>
+
+      </div>
+      <div class="col">
+
+        <img  class="ng-binding" ng-src="{{picture}}" width="200" height="200">
+
+      </div>
+    </div>
+    <div id="page3-markdown38" style="text-align:center;background-color: grey" class="show-list-numbers-and-dots heading1">
+      <p ng-controller="EmpCtrl" style="margin-top:0px;color:#FFFFFF;">"{{customerServiceQuote}}"</p>
+    </div>
+  </ion-content>
+</ion-view>
+</div>
+</body>
+</html>
+

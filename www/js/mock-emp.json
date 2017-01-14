@@ -1,0 +1,11 @@
+{"pageSize":15,
+	"total":2,
+	"currentPage":1,
+	"totalPages":1,
+	"items":[{"greetingMessage":"Hi..!",
+					"closingStatement":"I’m here to help resolve your issues.",
+				"customerServiceQuote":"\"There is an extraordinary chemistry that exists in long-term relationships\"",
+				"employeeId":"Alwadha01",
+				"caption":"Your happiness = Our top priority",
+				"openingStatement":"Meet your ‘happiness guide’..."},
+			{"greetingMessage":"Hi..!","closingStatement":"I’m here to help resolve your issues.","customerServiceQuote":"\"There is an extraordinary chemistry that exists in long-term relationships\"","employeeId":"Hamdan_Employee01","caption":"Your happiness = Our top priority","openingStatement":"Meet your ‘happiness guide’..."}]}

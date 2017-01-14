@@ -1,0 +1,14 @@
+{"pageSize":10,
+	"total":2,
+	"currentPage":1,
+	"totalPages":1,
+	"items":
+	[{"closingStatement":"And you are ready to go! Now you can make your first transaction!!",
+	"registrationStep":
+			["1. Collect a KYC form and fill in the required details.",
+			"2. Provide copies of all valid ID's to the happiness guide.",
+			"3. Confirm the details with your happiness guides at the counter."],
+	"caption":"New to LuLu family?",
+	"openingStatement":"No worries.. We are here to help! Follow these simple steps"},
+{"closingStatement":"And you are ready to go! Now you can make your first transaction!!",
+"registrationStep":["1. Collect a KYC form and fill in the required details.","2. Provide copies of all valid ID's to the happiness guide.","3. Confirm the details with your happiness guides at the counter."],"caption":"New to LuLu family?","openingStatement":"No worries.. We are here to help! Follow these simple steps"}]}

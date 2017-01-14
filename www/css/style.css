@@ -1,0 +1,104 @@
+
+#inner {
+    
+    margin: 0 auto; 
+}
+
+.box{
+  width:200px;
+  height:200px;
+}
+
+.red{
+  background:#f00;
+}
+
+.white{
+  background:white;
+}
+
+ {
+    cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.header .col {
+    background-color:lightgrey;
+    border: solid 1px black;
+    border-bottom-style:solid 1px black ;
+    border-right-style: solid 1px black;
+}
+
+#rate {
+  color:black;
+    border: solid 1px black;
+    border-bottom-style:solid 1px black ;
+    border-right-style: solid 1px black;
+}
+
+
+
+.ion-navbar-section{ display: none; }
+
+@keyframes fadeIn
+  to { 
+     opacity: 1; }
+
+     .fade-in {
+  animation: fadeIn 0.8s ease backwards;
+  
+}
+
+.fade-in {
+  animation: fadeIn ease 0.8s;
+  -webkit-animation: fadeIn ease 0.8s;
+  -moz-animation: fadeIn ease 0.8s;
+  -o-animation: fadeIn ease 0.8s;
+  -ms-animation: fadeIn ease 0.8s;
+}
+
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

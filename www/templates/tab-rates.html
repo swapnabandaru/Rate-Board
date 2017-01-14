@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+
+<div class="wrapper fade-in">
+<ion-view hide-nav-bar="true" title="Rates"   cache-view="false" id="store-visit-wrapper" hide-tabs>
+  <ion-content padding="false" style="background: url(img/img2.png) no-repeat center;background-size:cover;" >
+
+<div style="background-color:#00B2EE" class="row">
+      <div class="col col-20">
+
+        <img style="margin-left:60px;""
+   
+   src="img/Icon.jpg" width="40" height="40" center>
+
+      </div>
+      <div class="col col-50">
+
+       <h4 style="color:white";><strong>LuLu </strong> <strong>International</strong><strong> Exchange </h4></strong>
+   
+   
+      </div>
+      <div class="col col-30"  >
+      
+
+            <p style="color:white" ng-controller="datCtrl">{{ today | date : "dd MMM y,EEEE" }}
+                <br>{{today | date : "hh:mm a"}} </p>
+      </div>
+
+      </div>
+  
+      <div class="spacer" style="height: 40px;"></div>
+
+      
+        <div class="row header">
+          <div style="background-color:lightgrey" class="col col-25">Currency </div>
+          <div style="background-color:lightgrey" class="col">We Buy</div>
+          <div style="background-color:lightgrey" class="col">We Sell</div>
+          <div style="background-color:lightgrey" class="col">DD/TT</div>
+          <div style="background-color:lightgrey" class="col col-25">Currrency</div>
+          <div style="background-color:lightgrey" class="col">We Buy</div>
+          <div style="background-color:lightgrey" class="col">We Sell</div>
+          <div style="background-color:lightgrey" class="col">DD/TT</div>
+        </div>
+        <div class="row">
+          <div id="rate" class="col  col-25"> <img src="http://www.mapsofindia.com/maps/india/india-flag-a4.jpg" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">India </div>
+          <div  id="rate" class="col">{{ncBuyRate13}}</div>
+          <div  id="rate" class="col">{{ncSellRate13}} </div>
+          <div  id="rate" class="col">{{ntSellRate13}}</div>
+          <div  id="rate" class="col col-25">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/255px-Flag_of_Thailand.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;"> Thailand</div>
+          <div  id="rate" class="col">{{ncBuyRate45}}</div>
+          <div  id="rate" class="col">{{ncSellRate45}} </div>
+          <div  id="rate" class="col">{{ntSellRate45}}</div>
+        </div>
+         <div class="row">
+          <div  id="rate" class="col col-25"> <img src="http://www.worldatlas.com/webimage/flags/countrys/zzzflags/bdlarge.gif" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Bangladesh</div>
+          <div  id="rate"  class="col">{{ncBuyRate2}}</div>
+          <div class="col" id="rate" >{{ncSellRate2}} </div>
+          <div  id="rate" class="col">{{ntSellRate2}}</div>
+          <div  id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Turkey</div>
+          <div  id="rate" class="col">{{ncBuyRate47}}</div>
+          <div  id="rate" class="col">{{ncSellRate47}}</div>
+          <div  id="rate" class="col">{{ntSellRate47}}</div>
+          </div>
+       
+         <div class="row">
+          <div  id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/255px-Flag_of_Pakistan.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Pakistan</div>
+          <div  id="rate" class="col">{{ncBuyRate30}}</div>
+          <div  id="rate" class="col">{{ncSellRate30}} </div>
+          <div  id="rate" class="col">{{ntSellRate30}}</div>
+          <div id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Egypt</div>
+          <div  id="rate" class="col">{{ncBuyRate10}}</div>
+          <div id="rate"  class="col">{{ncSellRate10}}</div>
+          <div  id="rate" class="col">{{ntSellRate10}}</div>
+        </div>
+         <div class="row">
+          <div id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/2000px-Flag_of_Sri_Lanka.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;" >SriLanka</div>
+          <div id="rate"  class="col">{{ncBuyRate41}}</div>
+          <div id="rate"  class="col">{{ncSellRate41}} </div>
+          <div  id="rate" class="col">{{ntSellRate41}}</div>
+          <div  id="rate" class="col col-25"><img src="http://jordanflag.facts.co/jordanflagimage1.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Jordan</div>
+          <div id="rate"  class="col">{{ncBuyRate19}}</div>
+          <div  id="rate" class="col">{{ncSellRate19}}</div>
+          <div  id="rate" class="col">{{ntSellRate19}}</div>
+        </div>
+         <div class="row" >
+          <div  id="rate" class="col col-25"><img src="http://www.worldatlas.com/webimage/flags/flags_database/Flag_of_Singapore.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Singapore</div>
+          <div  id="rate" class="col">{{ncBuyRate38}}</div>
+          <div  id="rate" class="col">{{ncSellRate38}} </div>
+          <div  id="rate" class="col">{{ntSellRate38}}</div>
+          <div  id="rate" class="col col-25"><img src="https://www.factualisrael.com/wp-content/uploads/2014/11/Flag_of_Morocco_david-star.jpg" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Morocco</div>
+          <div  id="rate" class="col">{{ncBuyRate25}}</div>
+          <div  id="rate" class="col">{{ncSellRate25}}</div>
+          <div id="rate"  class="col">{{ntSellRate25}}</div>
+        </div>
+         <div class="row">
+          <div id="rate"  class="col col-25"><img src="http://www.crwflags.com/fotw/images/p/ph.gif" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Philippines</div>
+          <div  id="rate" class="col">{{ncBuyRate31}}</div>
+          <div  id="rate" class="col">{{ncSellRate31}} </div>
+          <div  id="rate" class="col">{{ntSellRate31}}</div>
+          <div  id="rate" class="col col-25"><img src="http://www.worldatlas.com/webimage/flags/countrys/zzzflags/cnlarge.gif" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">China</div>
+          <div  id="rate" class="col">{{ncBuyRate7}}</div>
+          <div  id="rate" class="col">{{ncSellRate7}}</div>
+          <div  id="rate"  id="rate" class="col">{{ntSellRate7}}</div>
+        </div>
+         <div class="row" >
+          <div id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nepal_Flag_Incorrect.png/220px-Nepal_Flag_Incorrect.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Nepal</div>
+          <div  id="rate" class="col">{{ncBuyRate26}}</div>
+          <div  id="rate" class="col">{{ncSellRate26}} </div>
+          <div id="rate"  class="col">{{ntSellRate26}}</div>
+          <div  id="rate" class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/1280px-Flag_of_Kuwait.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Kuwait</div>
+          <div  id="rate" class="col">{{ncBuyRate21}}</div>
+          <div  id="rate" class="col">{{ncSellRate21}}</div>
+          <div  id="rate" class="col">{{ntSellRate21}}</div>
+        </div>
+         <div class="row">
+          <div id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/2000px-Flag_of_Bahrain.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Bahrain</div>
+          <div id="rate"  class="col">{{ncBuyRate1}}</div>
+          <div id="rate"  class="col">{{ncSellRate1}} </div>
+          <div  id="rate" class="col">{{ntSellRate1}}</div>
+          <div  id="rate" class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/255px-Flag_of_Oman.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Oman</div>
+          <div  id="rate" class="col">{{ncBuyRate29}}</div>
+          <div  id="rate" class="col">{{ncSellRate29}}</div>
+          <div  id="rate" class="col">{{ntSellRate29}}</div>
+        </div>
+         <div class="row" >
+          <div  id="rate" class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/255px-Flag_of_Indonesia.svg.png" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Indonesia</div>
+          <div id="rate"  class="col">{{ncBuyRate14}}</div>
+          <div  id="rate" class="col">{{ncSellRate14}} </div>
+          <div  id="rate"  id="rate" class="col ">{{ntSellRate14}}</div>
+          <div  id="rate" class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Qatar.svg" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Qatar</div>
+          <div id="rate"  class="col">{{ncBuyRate32}}</div>
+          <div id="rate"  class="col">{{ncSellRate32}}</div>
+          <div id="rate"  class="col">{{ntSellRate32}}</div>
+        </div>
+         <div class="row" >
+          <div id="rate"  class="col col-25"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Malaysia</div>
+          <div id="rate"  class="col">{{ncBuyRate23}}</div>
+          <div  id="rate" class="col">{{ncSellRate23}} </div>
+          <div  id="rate" class="col">{{ntSellRate23}}</div>
+          <div  id="rate" class="col col-25"><img src="http://www.worldatlas.com/webimage/flags/countrys/zzzflags/salarge.gif" width="18" height="16" style="display:inline;margin:0px 8px 0px 2px;">Saudi</div>
+          <div  id="rate" class="col">{{ncBuyRate34}}</div>
+          <div  id="rate" class="col">{{ncSellRate34}}</div>
+          <div  id="rate" class="col">{{ntSellRate34}}</div>
+        </div>
+
+    </ion-content>
+        </body>
+    </html>

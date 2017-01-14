@@ -1,0 +1,66 @@
+<div class="wrapper fade-in">
+<ion-view hide-nav-bar="true" view-title="Home"  cache-view="false" id="store-visit-wrapper" hide-tabs>
+  <!--<ion-view title="Home" hide-back-button="true" nav-transition="none" id="page1" style="background-color:#7A7D87;">-->
+  <ion-content padding="false" style="background: url(img/img2.png) no-repeat center;background-size:cover;" class=" manual-remove-top-padding ">
+    <ion-list id="page3-list31">
+      <div style="background-color:#00B2EE" class="row">
+      <div class="col col-20">
+
+        <img style="margin-left:60px;""
+   
+   src="img/Icon.jpg" width="40" height="40" center>
+
+      </div>
+      <div class="col col-50">
+
+       <h4 style="color:white";><strong>LuLu </strong> <strong>International</strong><strong> Exchange </h4></strong>
+   
+   
+      </div>
+      <div class="col col-30"  >
+      
+
+            <p style="color:white" ng-controller="datCtrl">{{ today | date : "dd MMM y,EEEE" }}
+                <br>{{today | date : "hh:mm a"}} </p>
+      </div>
+
+
+      </div>
+    </ion-list> 
+    <div>
+    </div>
+    <h3 id="home-heading3" style="color:black;text-align:center;">{{caption}}</h3>
+    <div class="spacer" style="height: 10px;"></div>
+    <div id="home-markdown10" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:black;font-size:20px;">{{openingStatement}}</p>
+    </div>
+    <div class="spacer" style="height: 30px;"></div>
+    <ol style="padding-left:90px">
+      <li style="color:black;font-size:20px">
+        1.
+        <u style="color:red">Collect a KYC form</u> and fill in the required details
+      </li>
+      <br>
+      <li style="color:black;font-size:20px">
+        2. Provide copies of
+        <u style="color:red"> all valid ID's</u> to the happness guide
+      </li>
+      <br>
+      <li style="color:black;font-size:20px">
+        3.
+        <u style="color:red"> Confirm the details</u> with your happiness guides at the counter.
+      </li>
+    </ol>
+    <div class="spacer" style="height: 50px;"></div>
+    <div id="home-markdown14" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:black;font-size:20px">{{closingStatement}}</p>
+    </div>
+    <div id="home-markdown15" style="text-align:center;" class="show-list-numbers-and-dots">
+      <!--<p style="color:white;font-size:16px;">NOW YOU CAN MAKE YOUR FIRST TRANSACTION!</p>-->
+    </div>
+    
+  </ion-content>
+
+</ion-view>
+</ion-view>
+</div>

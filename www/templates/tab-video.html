@@ -1,0 +1,43 @@
+<div class="wrapper fade-in">
+<ion-view hide-nav-bar="true" title="Video" id="page2" style="background-color:red;"  cache-view="false" id="store-visit-wrapper" hide-tabs>
+  <ion-content padding="false" style="background: url(img/img3.jpg) no-repeat center;background-size:cover;">
+    <div style="background-color:#00B2EE" class="row">
+      <div class="col col-20">
+
+        <img style="margin-left:60px;""
+   
+   src="img/Icon.jpg" width="40" height="40" center>
+
+      </div>
+      <div class="col col-50">
+
+       <h4 style="color:white";><strong>LuLu </strong> <strong>International</strong><strong> Exchange </h4></strong>
+   
+   
+      </div>
+      <div class="col col-30"  >
+      
+
+            <p style="color:white" ng-controller="datCtrl">{{ today | date : "dd MMM y,EEEE" }}
+                <br>{{today | date : "hh:mm a"}} </p>
+      </div>
+
+
+      </div>
+    <div class="video-container" style="width:750px;height:250px;padding-top:15px;padding-left:25px;padding-right:25px;padding-bottom:25px">     
+         <!--<iframe src="https://www.youtube.com/embed/wyVM1evRxNw" frameborder="0" width="560" height="315"></iframe>-->
+         <video width="720" height="240" controls autoplay >
+                <source src="img/videoplayback.mp4" type="video/mp4">              
+        </video>
+    </div>    
+    <div  style="background-color:white;" class="row">
+      <div  class="col col-30">
+         <img   src="img/caroline_kingsley.jpg" width="110" height="140" center>
+      </div>
+      <div class="col col-70">        
+        <p style="color:black;font-weight:600">{{customerTest}}</p>
+      </div>
+    </div>   
+  </ion-content>
+</ion-view>
+ </div>

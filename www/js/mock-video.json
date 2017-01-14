@@ -1,0 +1,15 @@
+{"pageSize":10,
+	"total":2,
+	"currentPage":1,
+	"items":
+	[{"videoDescription":["LuLu International Exchange"],
+		"customerTestimonials":["“I have dealt with LuLu International Exchange for all my remittance needs and I find their rates to be the best along with great service and customer care.”\r\n- Margaret Cassas"],
+		"customerPhoto":[{"name":"alwadha_customer01.jpg",
+						"displayName":"alwadha_customer01.jpg",
+					"primaryNodeTypeName":"hippogallery:imageset",
+				"mimeType":null,
+			"length":0,"blank":false,
+		"height":0,"width":0,"localizedName":"alwadha_customer01.jpg",
+	"path":"/content/gallery/myhippoproject/customer-photo_testimonial/alwadha_customer01.jpg/alwadha_customer01.jpg","leaf":false}],
+	"videoLink":["www.youtube.com/embed/LP9AdAFBqTk?wmode=opaque"]},
+	{"videoDescription":["LuLu International Exchange"],"customerTestimonials":["LuLu International Exchange provides unbeatable exchange rate every time, ensuring a smooth transaction and saving me both time and money.\r\n- Maria Carrie"],"customerPhoto":[{"name":"hamdan_customer01.jpg","displayName":"hamdan_customer01.jpg","primaryNodeTypeName":"hippogallery:imageset","mimeType":null,"length":0,"blank":false,"height":0,"width":0,"localizedName":"hamdan_customer01.jpg","path":"/content/gallery/myhippoproject/customer-photo_testimonial/hamdan_customer01.jpg/hamdan_customer01.jpg","leaf":false}],"videoLink":["www.youtube.com/embed/LP9AdAFBqTk?wmode=opaque"]}],"totalPages":1}
